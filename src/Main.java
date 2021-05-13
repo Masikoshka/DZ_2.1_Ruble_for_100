@@ -5,7 +5,7 @@ public class Main {
         int bonusRubles;
         int totalBalance;
 
-        if (refill >= 1000) {
+        if (refill > 1000) {
             bonusRubles = refill / 100;
         } else {
             bonusRubles = 0;
